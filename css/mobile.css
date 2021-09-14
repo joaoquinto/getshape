@@ -1,0 +1,50 @@
+.container {
+  margin: 0 auto;
+  /* max-width:  320px  comentando esse valor o site se torna automaticamente responsivo.*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.get-shape-logo {
+  margin-bottom: 101px;
+}
+
+.whats-up {
+  background: url("../img/whatsup/unnamed.png");
+  padding-bottom: 312px;
+  background-size: cover;
+  background-position: right 40% bottom 45%;
+  background-repeat: no-repeat;
+}
+
+.whats-up-logo {
+  flex: 0 0 calc(100% - 92px);
+  margin: 0 46px 31px 46px;
+  align-self: center;
+}
+
+.call-people {
+  flex: 0 0 calc(100% - 64px);
+  text-align: center;
+  margin: 0 32px;
+  padding: 10px;
+  color: #f5ef0b;
+  font-size: 1.188em;
+  font-family: "Dosis", sans-serif;
+}
+
+.book-to-run-yellow {
+  flex: 0 0 calc(160px - 220px);
+  background-color: #f5ef0b;
+  width: 100px;
+  padding: 8px 0;
+  margin: 0 auto;
+  border: 3px solid #000;
+  text-align: center;
+  font-size: 0.813em;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #000;
+}
