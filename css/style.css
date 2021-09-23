@@ -79,7 +79,7 @@
 .title-calories {
   padding-top: 40px;
   margin: 0 38px;
-  font-size: 4.0625em;
+  font-size: 3.063em;
   font-family: "Dosis-ExtraLight_Medium";
   flex: 0 0 calc(190.5px - 76px);
 }
@@ -117,5 +117,6 @@
 
   .calories {
     padding-bottom: 140px;
+    background-position: right 56.5% bottom 30%;
   }
 }
