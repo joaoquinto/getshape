@@ -1,5 +1,5 @@
 # getshape
 
-Uma single page sobre corridas.
+Uma page sobre corridas.
 
 https://joaoquinto.github.io/getshape/
