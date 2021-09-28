@@ -1,0 +1,56 @@
+@media (min-width: 600px) {
+  .title-calories {
+    padding-top: 114px;
+    font-size: 4.25em;
+    margin-left: 105px;
+  }
+
+  .believe {
+    font-size: 0.8125em;
+    margin-left: 105px;
+  }
+
+  .believe::after {
+    margin-top: 27px;
+  }
+
+  .calories {
+    padding-bottom: 140px;
+    background-position: right 56.5% bottom 30%;
+  }
+
+  .get-in-share {
+    padding: 300px 0;
+  }
+
+  .call-get-in-share {
+    text-align: left;
+    margin-left: 313px;
+    flex: 0 0 calc(120.333333333px - 313px);
+  }
+
+  .title-get-in-share {
+    text-align: left;
+    margin-left: 194px;
+  }
+
+  .title-get-in-share::after {
+    content: url("../img/share/yellow-line.png");
+    display: flex;
+    margin-left: 30px;
+    position: relative;
+    top: -30px;
+  }
+
+  .no-more {
+    font-size: 0.938em;
+    align-self: flex-start;
+    margin-left: 257px;
+  }
+
+  .info-get-shape {
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 303px;
+  }
+}

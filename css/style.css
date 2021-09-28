@@ -33,6 +33,7 @@
 
 .whats-up {
   background: url("../img/whatsup/unnamed.png");
+  background-repeat: no-repeat;
   padding-bottom: 312px;
   background-size: cover;
   background-position: right 40% bottom 45%;
@@ -72,6 +73,7 @@
 .calories {
   background: url("../img/calories/victor-freitas-hOuJYX2K5DA-unsplash.png");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: right 52.5% bottom 45%;
   padding-bottom: 30px;
 }
@@ -98,25 +100,69 @@
   content: url("../img/calories/arrow.png");
 }
 
-/* Desktop */
-@media (min-width: 600px) {
-  .title-calories {
-    padding-top: 114px;
-    font-size: 4.25em;
-    margin-left: 105px;
+.get-in-share {
+  background: url("../img/share/pain-between-shoulder-blades.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  background-position: right 50% bottom 50%;
+}
+
+.call-get-in-share {
+  text-align: center;
+  font-size: 1.063em;
+  font-family: "Dosis-ExtraLight_Regular";
+  color: #ffff;
+  margin-bottom: 25px;
+}
+
+.title-get-in-share {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4.063em;
+  font-family: "Dosis-ExtraLight_Medium";
+  color: #fff;
+}
+
+.title-get-in-share::after {
+  content: url("../img/share/yellow-line.png");
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+}
+
+.no-more {
+  font-size: 0.938em;
+  text-align: center;
+  font-family: "Dosis-ExtraLight_Regular";
+  color: #f5e827;
+  margin: 0 41px;
+  align-self: center;
+  flex: 0 0 calc(100% - 82px);
+  position: relative;
+  top: -30px;
+}
+
+.info-get-shape {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-family: "Dosis-ExtraLight_Medium";
+  font-weight: bold;
+  color: #fff;
+}
+
+/* @media (min-width: 300px) and (orientation: landscape) {
+  .call-get-in-share {
+    text-align: center;
   }
 
-  .believe {
-    font-size: 0.8125em;
-    margin-left: 105px;
+  .title-get-in-share {
+    text-align: center;
   }
-
-  .believe::after {
-    margin-top: 27px;
-  }
-
-  .calories {
-    padding-bottom: 140px;
-    background-position: right 56.5% bottom 30%;
+  .title-get-in-share::after {
+    justify-content: center;
   }
 }
+ */
