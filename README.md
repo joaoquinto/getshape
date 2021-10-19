@@ -6,8 +6,8 @@
 
 ### Screenshot de um Pixel 2
 
-<img src="./screenshots/mobile.4v.png" width="300" heigth="300px">
+<img src="./screenshots/mobile.5v.png" width="300" heigth="300px">
 
 ### Screenshot de uma tela 1920 X 1080
 
-<img src="./screenshots/desktop.4v.png" width="1920" heigth="1080px">
+<img src="./screenshots/desktop.5v.png" width="1920" heigth="1080px">
