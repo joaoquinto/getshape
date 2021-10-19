@@ -76,4 +76,31 @@
   .get-map {
     flex: 0 0 33.3333333333%;
   }
+
+  .container-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 57px 0;
+  }
+
+  .container-social li:nth-child(1) {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  .container-social li:nth-child(4) {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+
+  .container-social li:nth-child(2),
+  .container-social li:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .container-social li {
+    margin-right: 87px;
+  }
 }
