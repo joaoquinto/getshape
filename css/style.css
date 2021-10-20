@@ -307,3 +307,28 @@
     transform: scale(1.3);
   }
 }
+
+.container-slide-to-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.slideToUp {
+  margin-top: 10px;
+  margin-right: 10px;
+  background: #000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #f5e827;
+  position: fixed;
+  cursor: pointer;
+  display: none;
+}
+
+.slideToUp::before {
+  content: "\2191";
+  color: #f5e827;
+}
