@@ -282,6 +282,12 @@
   color: #afacac;
 }
 
+.email {
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 0 0 calc(100% - 10px);
+}
+
 .animation-call-to-action:hover {
   animation: scale 1.5s;
 }
