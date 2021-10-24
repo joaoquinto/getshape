@@ -36,7 +36,7 @@
 
   .title-get-in-share::after {
     content: url("../img/share/yellow-line.png");
-    display: flex;
+    display: table;
     margin-left: 30px;
     position: relative;
     top: -30px;
