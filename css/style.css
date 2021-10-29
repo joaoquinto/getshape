@@ -20,7 +20,6 @@
 
 .container {
   margin: 0 auto;
-  /* max-width:  320px  comentando esse valor o site se torna automaticamente responsivo.*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
