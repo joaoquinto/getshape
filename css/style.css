@@ -252,6 +252,11 @@
   align-items: center;
 }
 
+.container-social img {
+  height: 88px;
+  width: 88px;
+}
+
 .container-social li:nth-child(1) {
   margin-top: 62px;
 }
@@ -275,6 +280,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.container-logo .logo-footer {
+  height: 120px;
+  width: 120px;
 }
 
 .container-logo li p {
@@ -326,7 +335,7 @@
 }
 
 .slideToUp {
-  margin-top: 300px;
+  margin-top: 200px;
   margin-right: 10px;
   background: #000;
   width: 50px;
