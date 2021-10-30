@@ -29,6 +29,11 @@
   margin-bottom: 101px;
 }
 
+.get-shape-logo {
+  width: 120px;
+  height: 120px;
+}
+
 .whats-up {
   background: url("../img/whatsup/unnamed.png");
   background-repeat: no-repeat;
