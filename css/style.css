@@ -20,7 +20,6 @@
 
 .container {
   margin: 0 auto;
-  /* max-width:  320px  comentando esse valor o site se torna automaticamente responsivo.*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -28,6 +27,11 @@
 
 .get-shape-logo {
   margin-bottom: 101px;
+}
+
+.get-shape-logo {
+  width: 120px;
+  height: 120px;
 }
 
 .whats-up {
