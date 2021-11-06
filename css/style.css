@@ -230,6 +230,7 @@
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+  justify-content: center;
 }
 
 .get-map .information-of-the-meeting {
@@ -237,7 +238,7 @@
   text-transform: uppercase;
   font-size: 1.063em;
   font-family: "Montserrat";
-  margin: 321px 0 275px 0;
+  margin: 242px 0 275px 0;
 }
 
 .social {
