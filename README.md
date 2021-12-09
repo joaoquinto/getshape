@@ -2,7 +2,12 @@
 
 ## Uma landing page de corrida, com o intuito de adquirir novos clientes e fazê-los entrar em forma no verão.
 
-<a href="https://joaoquinto.github.io/getshape/" rel="noopener noreferrer" target="_blank">Get Shape</a>
+# Tecnologias usadas
+
+- Html5
+- Css - Flexbox
+- Google Analytics
+- Adobe XD
 
 ### Screenshot de um Pixel 2
 
